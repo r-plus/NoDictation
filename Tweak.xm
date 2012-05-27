@@ -1,3 +1,10 @@
 %hook UIKeyboardLayoutStar
-- (BOOL)shouldShowDictationKey { return NO; }
+- (BOOL)shouldShowDictationKey
+{
+  BOOL tmp = %orig;
+  if ([[self keyboardName] rangeOfString:@"Kana"].location == NSNotFound)
+    return tmp;
+  else
+    return NO;
+}
 %end
