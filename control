@@ -1,9 +1,15 @@
 Package: jp.r-plus.nodictation
 Name: NoDictation
-Depends: mobilesubstrate, firmware(>= 5.1)
-Version: 0.0.1
+Depends: mobilesubstrate, firmware (>= 5.1), gsc.dictation
+Version: 1.0
 Architecture: iphoneos-arm
-Description: Disable dictation key without disable Siri.
-Maintainer: r_plus
-Author: r_plus
+Description: Disable the dictation key on 5.1+
+Author: r_plus <anasthasia.r+nodictation@gmail.com>
 Section: Tweaks
+Priority: optional
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=nodictationDp
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=nodictationDp
+Sponsor: thebigboss.org <http://thebigboss.org>
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Tag: purpose::extension
+dev: rplus
