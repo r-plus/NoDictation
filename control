@@ -1,7 +1,7 @@
 Package: jp.r-plus.nodictation
 Name: NoDictation
 Depends: mobilesubstrate, firmware (>= 5.1), gsc.dictation
-Version: 1.0
+Version: 1.0.1
 Architecture: iphoneos-arm
 Description: Disable the dictation key on 5.1+
 Author: r_plus <anasthasia.r+nodictation@gmail.com>
